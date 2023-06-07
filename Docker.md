@@ -1,3 +1,12 @@
 Docker essentially assigns cubicles (containers) to an office space (the resources) where workers (applications) may conduct tasks. 
 
 The workers are not allowed to use the stapler in the cubicle next door, since they are assigned strictly to their cubicle.
+
+
+
+Compared to the hypervisor equivalent, docker only requires the kernel to be installed once, meaning that the containers that are built on top only have to deal with the specific distribution of linux to install rather than the kernel files. 
+
+downfall with docker is that windows cannot be run as a container with a linux based docker and vice versa.
+
+
+with containers, each application does not have to conflict with other applications, whether it be compatibility issues or with hardware.
