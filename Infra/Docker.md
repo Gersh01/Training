@@ -38,3 +38,34 @@
     A negative with docker is that windows cannot be run as a container with a linux based docker and vice versa.
   </li>
 </ul>
+
+<h2>There are generally 7 main networking methods:</h2>
+  <ol>
+    <li>
+      The default bridge - akin to setting up a switch for containers to which the switch talks to the docker network interface as its router
+    </li>
+    <br>
+    <li>
+      The user-defined bridge - basically creating another bridge, or another network allowing for two separate networks that communicates to the same router; supports DNS-like connection between each container
+    </li>
+    <br>
+    <li>
+      MACVLAN - all of the benefits of a bridge network but acts as if its directly connected to home network using the host interface, meaning promisc must be enabled; downside being no DHCP  
+    </li>
+    <br>
+    <li>
+      IPvlan(Layer 2) - similar to MACVLAN but the mac address of the host will be shared to the container with the container(s) having their own ip address; circumvents the promisc issue   
+    </li>
+    <br>
+    <li>
+      IPvlan(Layer 3) - connecting containers to host as if the host is a router, but this time networking is done on the third layer, passing over broadcasting issues; gives user more control     
+    </li>
+    <br>
+    <li>
+      Overlay Network - used for multiple hosts running multiple containers across multiple machines, usually using Docker Swarm; Very cloud centric   
+    </li>
+    <br>
+    <li>
+      None - literally nothing, but allows for certain containers to act as isolated as possible from any machine.   
+    </li>
+   </ol> 
