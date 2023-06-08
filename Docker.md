@@ -1,8 +1,9 @@
-<h1>Docker decrypted</h1>
+<h1>Docker Decrypted</h1>
   <div>
     Hopefully this can shed light onto how to get started fiddling with Docker, while also being capable of explaining to others what you're doing exactly. 
-  
+ 
   </div>
+  
 <h2>What is it?</h2>
 <ul>
   <li>
@@ -16,9 +17,13 @@
   </li>
   <br>
   <li>
-    In contrast, a hypervisor would be directly on top of the hardware. What this means is that for every cubicle (container) that is provisioned, the hypervisor must
+    In contrast, a hypervisor would be directly on top of the hardware. What this means is that for every cubicle (container) that is provisioned, the hypervisor must build an entire office. Rather than have multiple    
+    offices with one cubicle. Docker, a container engine would consolidate those cubicles into one office. 
   </li>
+  <br>
+  <a href = "https://www.virtasant.com/blog/hypervisors-a-comprehensive-guide" target = "_blank"><img src = "VMorContainer.png" alt = "picture comparing VM versus Container engines"></a>
 </ul>
+
 <h2>Pro and Cons</h2>
 <ul>
   <li>
