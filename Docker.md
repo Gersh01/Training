@@ -21,16 +21,20 @@
     offices with one cubicle. Docker, a container engine would consolidate those cubicles into one office. 
   </li>
   <br>
-  <a target = "_blank" href = "https://www.virtasant.com/blog/hypervisors-a-comprehensive-guide" ><img src = "VMorContainer.png" alt = "picture comparing VM versus Container engines"></a>
+  <a href="https://www.virtasant.com/blog/hypervisors-a-comprehensive-guide"><img src = "VMorContainer.png" alt = "picture comparing VM versus Container engines"></a>
 </ul>
 
 <h2>Pro and Cons</h2>
 <ul>
-  <li>
-    Now with containers, each application does not have to conflict with other applications, whether it be compatibility issues or with hardware.
+  <li style="color: green">
+    Since each container uses its own allocated resources, this allows for applications to be run on their own, reducing incompatibility and conflict of interest for hardware usage
   </li>
   <br>
   <li>
-    The downfall with docker is that windows cannot be run as a container with a linux based docker and vice versa.
+    Docker is extremely fast and lightweight, meaning that containers can be configured, updated, and run much faster than other container softwares
+  </li>
+  <br>
+  <li>
+    A negative with docker is that windows cannot be run as a container with a linux based docker and vice versa.
   </li>
 </ul>
