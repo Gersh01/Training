@@ -21,7 +21,7 @@
     offices with one cubicle. Docker, a container engine would consolidate those cubicles into one office. 
   </li>
   <br>
-  <a href = "https://www.virtasant.com/blog/hypervisors-a-comprehensive-guide" target = "_blank"><img src = "VMorContainer.png" alt = "picture comparing VM versus Container engines"></a>
+  <a target = "_blank" href = "https://www.virtasant.com/blog/hypervisors-a-comprehensive-guide" ><img src = "VMorContainer.png" alt = "picture comparing VM versus Container engines"></a>
 </ul>
 
 <h2>Pro and Cons</h2>
