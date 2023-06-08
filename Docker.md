@@ -1,7 +1,7 @@
 <h1>Docker Decrypted</h1>
   <div>
-    Hopefully this can shed light onto how to get started fiddling with Docker, while also being capable of explaining to others what you're doing exactly. 
- 
+    Hopefully this can shed light onto how to get started fiddling with Docker, while also being capable of explaining to others what you're doing exactly. Docker is a container software, in contrast to a 
+    hypervisor has its own pros and cons.
   </div>
   
 <h2>What is it?</h2>
@@ -26,7 +26,7 @@
 
 <h2>Pro and Cons</h2>
 <ul>
-  <li style="color: green">
+  <li>
     Since each container uses its own allocated resources, this allows for applications to be run on their own, reducing incompatibility and conflict of interest for hardware usage
   </li>
   <br>
