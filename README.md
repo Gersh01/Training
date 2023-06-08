@@ -9,5 +9,5 @@ forest of knowledge. GLHF
 ## Quick Links
 [Docker](Docker.md)
 
-How the fuck do I create folders :(
+
 
