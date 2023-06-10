@@ -7,9 +7,9 @@ topics, I must be able to teach the subject. I'm hoping to teach myself everytim
 forest of knowledge. GLHF
 
 ## Quick Links
-[Docker](Docker.md)
+### [Docker](Docker.md)
 
-[Ansible](Ansible.md)
+### [Ansible](Ansible.md)
 
 
 
