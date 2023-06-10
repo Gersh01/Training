@@ -16,7 +16,7 @@ Ansible is basically the CEO of a network
 ansible pushes commands to devices, it uses the credentials of the systems OS. When installed, ansible will have a directory with a configuration for ansible processes as well as an inventory of all its connected devices.
 The control center is utilized through a CLI, and is where playbooks, or files that have a list of tasks that Ansible will carryout through all devices.
 
-![accessing ansible directory](
+![accessing ansible directory](AnsibleDirectory.PNG)
 
 
 
