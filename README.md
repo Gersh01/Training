@@ -1,5 +1,5 @@
 # Training
-This repository is my journey from a fool, unbeknownst to the masochistic world of IT and IT security, to an approximation of perfection in the field. I plan to use this repository as a dump of information, 
+This repository is my journey from a fool, unknown to the masochistic world of IT and IT security, to an approximation of perfection in the field. I plan to use this repository as a dump of information, 
 sometimes it will make sense, and other times the chaotic formatting will represent my current grasp on the subject of such mess. 
 
 Although this is public, and sounds as if I am talking to you, the reader directly, I actually intend this for myself, the author. According to my own modus operandi, in order to ensure a firm grasp of 
