@@ -27,8 +27,10 @@ The control center is utilized through a CLI, and is where playbooks, or files t
 ![Ansible host config](pictures/AnsibleHostConf.PNG)
 
 ### Ansible CLI commands
-ansible command example: **ansible linux -m ping**
-
+ansible command example: 
+```
+ansible linux -m ping
+```
 ansible tags:
 - "-a" (ad-hoc command)
 - "-m" (module)
@@ -42,4 +44,7 @@ playbooks are the .yml extension
 ![Playbook](pictures/AnsiblePlaybook.PNG)
 
 Ansible is idempotent meaning, if the result of performing it once, is exactly the same as the result of performning it repeatedly, without any intervening actions.
+
+## Useful Links
+[Examples and Good Practices](https://github.com/ansible/ansible-examples.git)
 
