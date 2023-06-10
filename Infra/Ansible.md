@@ -2,10 +2,10 @@
 
 
 ## What is it?
-Ansible is basically the CEO of a network
+Ansible is basically the CEO of a network, and is the point of automation.
 
 ## What does it do?
-- Configure systems
+- Configure systems (both OS systems and networking devices)
 - Deploy software
 - Supports continuous deployment/upscaling
 - Allows for zero-downtime updates
@@ -42,16 +42,4 @@ playbooks are the .yml extension
 ![Playbook](AnsiblePlaybook.PNG)
 
 Ansible is idempotent meaning, if the result of performing it once, is exactly the same as the result of performning it repeatedly, without any intervening actions.
-
-
-
-
-
-
-
-
-
-Network engineer
-Allows for connection to all switches, routers, any networking device
-groups in the ansible hosts file would be the routers or switches instead of the client computers
 
